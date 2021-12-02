@@ -1,0 +1,6 @@
+SELECT
+    impressions,
+    clicks,
+    ROUND(click_through_rate / 100, 4) as click_through_rate_decimal)
+FROM 
+    msba-test-1.google_sheets.digital_ad_spend
